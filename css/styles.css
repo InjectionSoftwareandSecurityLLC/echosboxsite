@@ -11398,6 +11398,16 @@ hr.divider-light {
   }
 }
 
+@media (max-width: 900px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: #fff;
+  }
+  #header-logo{
+    display: none;
+  }
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
